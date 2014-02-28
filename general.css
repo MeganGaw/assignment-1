@@ -41,34 +41,28 @@ header {
     
 }
 
-h1 {
-    font-size:2rem;
-    color:blue;
-    font-style:bold,oblique;
-    padding:-2rem;
-}
-
 body {
     margin: 0;
     padding: 0;
-    color:blue;
+    color:black;
+    background-color:white;
 }
 
 h2 {
-    color:black;
+    color:blue;
 }
 
 figcaption {
     font-size: .75rem;
     font-weight:900;
-    color: white;
+    color:white;
     padding: .5rem 5%;
     background-color:blue;
     border:black;
 }
 
 a {
-    background-color:blue;
+    background-color:black;
     color:white;
     padding-top:.2rem;
     padding-right:1rem;
@@ -89,8 +83,28 @@ detail p {
     font-weight:italic;
     float:left;
     margin: .5rem;
-    color:black;
 } 
+
+.billboard {
+    overflow:hidden;
+    background-size: 25rem;
+    background-color:blue;
+    background-position:center;
+    height: 10rem;
+    width: auto;
+    color:white;
+    font-size:3rem;
+    font-style:bold;
+}
+
+p {
+    font-style:left;
+}
+
+hr {
+    background-color:white;
+    background-size:.2rem;
+}
     
         
 
